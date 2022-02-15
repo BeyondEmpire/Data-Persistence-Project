@@ -77,7 +77,7 @@ public class MainManager : MonoBehaviour
 		if(oldHighScore < m_Points)
 		{
 			highScoreText.text = "High Score: " + m_Points;
-			//persistentData = GameObject.Find("PersistentData").GetComponent<PersistentData>();
+			persistentData = GameObject.Find("PersistentData").GetComponent<PersistentData>();
 			//persistentData.SaveGameData(oldHighScore);
 		}
 		
